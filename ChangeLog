@@ -1,0 +1,50 @@
+2011-11-05
+New Feature: Map news categories to cag_relatedcontent categories, plugin has option to display related news 
+
+2011-11-28
+Maintenance update. Fixed a problem where translations where not handled corrextly in some cases
+
+2010-09-24
+Bugfix concerning Plugin 5
+
+2010-09-22
+Updated Manual
+
+2010-09-15
+Fixed a bug in Plugin 5: “List of content with same category as this page's categories.”
+Page ID was static and deleted related Content Elements where listed.  
+
+2010-07-15
+Added another Plugin: “List of content with same category as this page's categories.”
+You can now categorize content elements as well. New plugin to display a list of content elements matching the page's categories where plugin ist placed.
+Updates to Manual
+
+2010-03-16
+Frontend view of all Categories can now be sorted in the same order as categories are defined in Backend.
+   plugin.tx_cagrelatedcontent_pi4.sortBy=sorting
+Number of Frontend view of all Categories can now be limited using Flexform configuration “maxItems”
+Updated Manual
+
+2010-01-06
+Inherit categories from pages higher in pagetree hirachy (optional)
+Updated Manual
+
+2009-06-10:
+Changes to Manual
+Fixed an issue with deletd and hidden pages beeing found as related in some cases.
+Fixed an issue with a trailing “?” in Link-URL when realURL is installed.
+
+2009-06-11
+Related pages titles (Links) are displayed in localized language
+Added new plugins:
+List categories of current Page (“Show this Page's Categories”)
+List all categories and a list of pages of each category (“List all Categories”)
+Updated Documentation
+
+2009-17-07
+Added functions to optionally also display list of related news based on News Category titles and Page Category titles
+Update Manual
+
+09-06-08 Jens Eipel  <j.eipel@connecta.ag>
+
+	* Initial release

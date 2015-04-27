@@ -1,0 +1,29 @@
+<T3DataStructure>
+	<meta type="array">
+		<langChildren>0</langChildren>
+	        <langDisable>1</langDisable>
+	</meta>
+	<ROOT>
+		<type>array</type>
+		<el>
+			<template>
+				<TCEforms>
+					<label>Template File</label>
+					<config>
+						<type>input</type>
+						<default>EXT:cag_relatedcontent/template.html</default>
+					</config>
+				</TCEforms>
+			</template>
+			<maxItems>
+				<TCEforms>
+					<label>Maximum number of results (for list of categories)</label>
+					<config>
+						<type>input</type>
+						<default>10</default>
+					</config>
+				</TCEforms>
+			</maxItems>
+		</el>
+	</ROOT>
+</T3DataStructure>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'cag_relatedcontent'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pages.tx_cagrelatedcontent_category">Content Category (ordered by priority)</label>
+			<label index="pages.tx_cagrelatedcontent_pages">Directly related pages</label>
+			<label index="tx_cagrelatedcontent_category">Content Category</label>
+			<label index="tx_cagrelatedcontent_category.title">Category Name</label>
+			<label index="tx_cagrelatedcontent_category.description">Description</label>
+            <label index="tx_cagrelatedcontent_newscat_relcontentcat">Map: News Category to Related Content Category</label>
+            <label index="tx_cagrelatedcontent_newscat_relcontentcat.news_category">News Category</label>
+            <label index="tx_cagrelatedcontent_newscat_relcontentcat.relcontent_cat">Related Content Category</label>
+            <label index="tx_cagrelatedcontent_newscat_relcontentcat.title">Title</label>
+
+			<label index="tt_content.list_type_pi1">List pages or news of similar category</label>
+			<label index="tt_content.list_type_pi2">List related pages</label>
+			<label index="tt_content.list_type_pi3">Show this pages's Categories</label>
+			<label index="tt_content.list_type_pi4">Show all categories / category details</label>
+			<label index="tt_content.list_type_pi5">List of content with same category as this page's categories</label>
+
+            <label index="tt_content.tx_cagrelatedcontent_categories">Content Categories</label>
+		</languageKey>
+	</data>
+</T3locallang>
