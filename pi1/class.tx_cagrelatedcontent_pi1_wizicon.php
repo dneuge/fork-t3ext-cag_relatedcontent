@@ -62,7 +62,8 @@ class tx_cagrelatedcontent_pi1_wizicon {
 					 */
 					function includeLocalLang()	{
 						$llFile = t3lib_extMgm::extPath('cag_relatedcontent').'locallang.xml';
-						$LOCAL_LANG = t3lib_div::readLLXMLfile($llFile, $GLOBALS['LANG']->lang);
+						$llParser = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Localization\\Parser\\LocallangXmlParser');
+						$LOCAL_LANG = $llParser->getParsedData($llFile, $GLOBALS['LANG']->lang);
 						
 						return $LOCAL_LANG;
 					}
