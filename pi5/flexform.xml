@@ -1,0 +1,38 @@
+<T3DataStructure>
+	<meta type="array">
+		<langChildren>0</langChildren>
+	        <langDisable>1</langDisable>
+	</meta>
+	<ROOT>
+		<type>array</type>
+		<el>
+			<template>
+				<TCEforms>
+					<label>Template File</label>
+					<config>
+						<type>input</type>
+						<default>EXT:cag_relatedcontent/template.html</default>
+					</config>
+				</TCEforms>
+			</template>
+			<maxItems>
+				<TCEforms>
+					<label>Maximum number of articles</label>
+					<config>
+						<type>input</type>
+						<default>10</default>
+					</config>
+				</TCEforms>
+			</maxItems>
+			<maxCharacters>
+				<TCEforms>
+					<label>Number Characters/Letters to display as preview of Articles (0 = no preview)</label>
+					<config>
+						<type>input</type>
+						<default>0</default>
+					</config>
+				</TCEforms>
+			</maxCharacters>
+		</el>
+	</ROOT>
+</T3DataStructure>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'cag_relatedcontent'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">List pages of similar category</label>
+			<label index="pi1_plus_wiz_description">List pages that match the current Pages category best</label>
+			<label index="pi2_title">List directly related pages</label>
+			<label index="pi2_plus_wiz_description">List directly related pages as defined in page properties of page</label>
+			<label index="pi3_title">Show this Page's Categories</label>
+			<label index="pi3_plus_wiz_description">Show categories assigned to this page</label>
+			<label index="pi4_title">List Pages grouped by Categories (show all Categories)</label>
+			<label index="pi4_plus_wiz_description">Show a alphabetically sorted list of all categories and their pages</label>
+			<label index="pi5_title"> Show content elements (articles) matching this page's categories</label>
+			<label index="pi5_plus_wiz_description">Show content elements with same category as this page's categories. Categories can be assigned page properties. Please assign categories to content elements on pages of your Webpage to see results.</label>
+
+
+
+		</languageKey>
+	</data>
+</T3locallang>
